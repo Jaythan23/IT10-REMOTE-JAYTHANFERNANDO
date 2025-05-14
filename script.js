@@ -14,3 +14,10 @@ sizeSelect.addEventListener('change', function () {
     paragraphs.style.fontSize=selectedSize;
 });
 
+const colorSelect=document.getElementById('colorSelect');
+const paragraphss=document.querySelector('p');
+
+colorSelect.addEventListener('change', function () {
+    const selectedColor=colorSelect.value;
+    paragraphss.style.color=selectedColor;
+});
